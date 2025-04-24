@@ -1,0 +1,97 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: linear-gradient(to right, #f0f4f7, #e4ecf1);
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0a3d62;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    color: #1e3799;
+  }
+  
+  /* Input + Button */
+  input, button {
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px #3498db44;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    transition: background 0.3s;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Order Cards */
+  .order {
+    background: #ffffff;
+    border-left: 5px solid #3498db;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+  
+  .order:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Status Badges */
+  .status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .status-Pending {
+    background-color: #f39b0e;
+    color: white;
+  }
+  .status-Preparing {
+    background-color: #2980b9;
+    color: white;
+  }
+  .status-Out {
+    background-color: #8e44ad;
+    color: white;
+  }
+  .status-Delivered {
+    background-color: #27ae60;
+    color: white;
+  }
+  
